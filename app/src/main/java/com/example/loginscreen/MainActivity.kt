@@ -102,7 +102,7 @@ fun MainApp() {
                         .padding(top = 30.dp, bottom = 50.dp),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Text(text = "Torus", style = MaterialTheme.typography.h1, modifier = Modifier.padding(bottom = 16.dp))
+
                     CustomInputField(inputValue = inputValueID, type = "uid")
                     CustomInputField(inputValue = inputValuePass, type = "password")
                 }
